@@ -1,0 +1,369 @@
+.modulo {
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.flex-container>div {
+
+    border-radius: 5px;
+    padding: 8px;
+    width: auto;
+}
+
+
+.logo img {
+    width: 80px;
+
+}
+
+
+.nave {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+
+.nave li {
+    display: inline-block;
+    padding: 0px 10% 0px 10%;
+    font-size: 15px;
+}
+
+.nave a {
+    color: rgb(137 128 128);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 20px 20px;
+
+}
+
+.nave a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding: 0px 20px;
+
+}
+
+.social a {
+    color: rgb(137 128 128);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0px 20px;
+
+}
+
+
+.cont2 {
+
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    height: 38vh;
+    flex-direction: row
+}
+
+.content-title {
+    margin: 0;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.055);
+    width: 96%;
+    text-align: center;
+    height: 44%;
+    padding: 35px 0px;
+    color: #e99e9e;
+    text-shadow: #00000029 0.1em 0.1em 0.2em;
+
+}
+
+.blog {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #ebe9e9;
+
+}
+
+.borde-linia {
+  
+    border-right: 20px solid rgb(255, 255, 255);
+
+}
+
+.borde-blanco {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+
+}
+
+.estructura-blog {
+
+    max-width: 100%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cultura {
+    background-image: url(./images/sakura.jpg);
+}
+
+.turismo {
+    background-image: url(./images/fuji.jpg);
+}
+
+.gastronomia {
+    background-image: url(./images/comida.jpg);
+}
+
+.vida-nocturna {
+    background-image: url(./images/noche.jpg);
+}
+
+.estructura {
+    display: flex;
+    background-size: cover;
+    height: 400px;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0px 0px;
+
+}
+
+p.data {
+    color: #d1e707;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    line-height: 4.1rem;
+    padding: 0px 20px;
+}
+
+h2.titlulo {
+
+    background-color: #dd757f;
+    color: #ececec;
+    font-size: 2rem;
+
+    margin: 0;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    line-height: 3.1rem;
+    padding: 0px 20px;
+}
+
+
+
+.text-blog {
+    column-count: 2;
+    margin: 20px 0px;
+
+}
+
+.texto-fin-blog {
+    display: flex;
+    justify-content: normal;
+    text-align: center !important;
+
+}
+
+.texto-fin-blog2 {
+    margin: 0px 17% 0px 17%;
+    border-right: 1.2em solid rgb(255, 255, 255);
+
+}
+
+.texto-fin-blog2 p {
+    margin: 0px 19% 20px 0%;
+}
+
+
+.text-center {
+    margin-top: 35px;
+}
+
+
+@media screen and (max-width: 1420px) {
+
+    .nave a {
+
+        margin: 35px 0px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h2.titlulo {
+        font-size: 1rem;
+        padding: 0px 20px;
+    }
+
+
+    h3.text-center {
+        font-size: 21px;
+    }
+
+    p.data {
+
+        font-size: 1rem;
+        font-weight: 1;
+
+        line-height: 3.1rem;
+        padding: 0px 20px;
+        color: #d1e707;
+        text-shadow: black 0.1em 0.1em 0.2em
+    }
+
+    .red {
+        display: flex;
+        justify-content: end;
+    }
+
+    texto-fin-blog2 {
+        margin: 0px 0px;
+    }
+
+    .borde-blanco {
+        padding: 20px;
+        background-color: #ffffff;
+        margin: 20px;
+    }
+
+    .texto-fin-blog2 {
+        margin: 0px 0px 0px 17%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .modulo {
+
+        background-size: cover;
+        background-position-y: 50%;
+        background-position-x: center;
+        padding: 0px 15px;
+        margin-bottom: 10px;
+    }
+
+ 
+
+    .nave li {
+        display: inline-block;
+        padding: 15px 6px 0px 6px;
+        font-size: 14px;
+    }
+
+    .navbar>.container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-evenly !important;
+    }
+
+    .red {
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        top: 25px;
+    }
+
+
+    .content-title {
+        margin: 0;
+        font-family: "Lora", serif;
+        font-weight: 300;
+        line-height: 2rem;
+        background-color: rgba(0, 0, 0, 0.055);
+        width: 96%;
+        text-align: center;
+        height: 63%;
+        padding: 22px 0px;
+        color: #fff7f7;
+        text-shadow: #00000029 0.1em 0.1em 0.2em;
+    }
+
+
+    .borde-linia {
+        /* linia a la isquierda al igual de alto */
+        border-right: 0px solid rgb(255, 255, 255);
+
+    }
+
+    .texto-fin-blog2 {
+        margin: 10px 5px !important;
+        border-right: 0em solid rgb(255, 255, 255);
+    }
+
+    .texto-fin-blog2 p {
+        margin: 0px 0% 20px 0%;
+    }
+
+
+    .row>* {
+        flex-shrink: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+        margin-top: var(--bs-gutter-y) !important;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .nave li {
+        display: inline-block;
+        padding: 18px 10px 0px 10px;
+        font-size: 11px;
+    }
+
+}

@@ -1,0 +1,163 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: inherit;
+
+}
+
+body {
+    box-sizing: border-box;
+    background: #ffffff;
+
+    align-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    height: 80vh;
+    justify-content: center;
+
+}
+
+.modulo {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.menu {
+    background: #2d4059;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.nav {
+    background: #ea5455;
+    flex: 5 1 auto;
+}
+
+.social {
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.cont2 {
+    background: rgb(232, 119, 61);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.content-title {
+    background: #ffd460;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sectioooo {
+    background: #000;
+    display: flex;
+
+}
+
+.articulos {
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    background: #1f6cb0;
+    flex: 1 1 40%;
+}
+
+.paginas {
+    background: #70a3c4;
+    flex: 1 1 100%;
+}
+
+.modulo3 {
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.modulo-b {
+    background: #ffea85;
+}
+
+.footer {
+    background: #000;
+    display: flex;
+}
+
+.footer2 {
+    background: #e6af2e;
+    flex-basis: 100%;
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px 25px 40px 20px;
+    }
+
+    .sectioooo {
+        flex-direction: column;
+        background: yellow;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 0px;
+       margin:80px 0px 80px 0px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sectioooo {
+        background: #fee228;
+    }
+
+    .articulos {
+        background: #08506f;
+
+    }
+
+    .article {
+        background: #60959c;
+        flex: 1 1 100%;
+
+    }
+
+    .paginas {
+        background: #a3ddcb;
+    }
+
+    .modulo3 {
+        background: #fd7b54;
+    }
+
+    .modulo-b {
+        background: #fdb36b;
+    }
+
+    .footer2 {
+        background: #fdc764;
+    }
+}
